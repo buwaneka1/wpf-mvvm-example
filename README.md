@@ -19,12 +19,12 @@ Model-View-ViewModel pattern is a three tier architecture which is used for the 
  This requirement is satisfied by implementing the INotifyPropertyChanged and raising PropertyChanged event when a property is changed.
  
  View :- view consists of the UI. In WPF it is the XAML file which defines the controls, we should add bindings in here for the architecture to work.
- 
+
  When connecting View model to Views the main idea is to assign the ViewModel to the DataContext property of the View.
  Code-Behind:- Purists of MVVM prefer not to have any code-behind related to the ui and that's the best way to implement this architecture as well.
  
  
  
  Links followed: -
- https://msdn.microsoft.com/en-us/library/hh848246.aspx
+ https://msdn.microsoft.com/en-us/library/hh848246.aspx 
  http://www.codeproject.com/Tips/813345/Basic-MVVM-and-ICommand-Usage-Example
