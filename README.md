@@ -23,7 +23,7 @@ Model-View-ViewModel pattern is a three tier architecture which is used for the 
  When connecting View model to Views the main idea is to assign the ViewModel to the DataContext property of the View.
  Code-Behind:- Purists of MVVM prefer not to have any code-behind related to the ui and that's the best way to implement this architecture as well.
  
- 
+ About the Project:- In this project when a button is clicked the displayed message on a label is changed and also an Image is displayed.
  
  Links followed: -
  https://msdn.microsoft.com/en-us/library/hh848246.aspx 
